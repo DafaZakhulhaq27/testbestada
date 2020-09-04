@@ -28,9 +28,7 @@ class Navbar extends Component {
                                 className="btn btn-outline-primary my-2 my-sm-0 ml-2 mr-2" 
                                 type="submit"
                                 onClick={() => onRouteChange('cart')}>
-                                    Cart ({
-                                        cart.length
-                                    })
+                                    Cart 
                             </button>
                              </> : <>
                             <button 
